@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>InputBudget</title>
+</head>
+<body>
+
+<p>Enter the percentage of each area of your budget which your new national budget will go to</p>
+
+<form action = "newPageToShowUp.php" method = "get">
+    <p>Industrial Stimulation</p><input type="number" name = "Industrial Stimulation"><br>
+    <p>Military Expenditure</p><input type="number" name = "Military Expenditure"><br>
+    <p>Research and Deployment</p><input type="number" name = "Research and Deployment"><br>
+    <p>Infrastructure</p><input type="number" name = "Infrastructure"><br>
+    <p>Health, Education, and Welfare</p><input type="number" name = "Health, Education, and Welfare"><br>
+    <input type = "submit" name="submit" value = "submitpercentages"/>
+</form>
+
+<?php
+
+if (isset($POST_['submit'])){
+    $ind = ($POST_['Industrial Stimulation']);
+    $mil = ($POST_['Military Expenditure']);
+    $rnd = ($POST_['Research and Deployment']);
+    $inf = ($POST_['Infrastructure']);
+    $hew = ($POST_['Health, Education, and Welfare']);
+
+    if ($ind + $mil + $rnd + $inf + $hew == 100){
+
+        print "this works! thank you!";
+
+    } else{
+        print "this does not add up! enter again!";
+        }
+}
+
+
+?>
+
+</body>
+</html>
