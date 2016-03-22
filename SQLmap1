@@ -1,0 +1,92 @@
+DROP TABLE mytable;
+CREATE TABLE mytable(
+   Region_Number     INTEGER  NOT NULL PRIMARY KEY 
+  ,Population        INTEGER 
+  ,Labor_Force       INTEGER 
+  ,Terrain_Type      VARCHAR(9) NOT NULL
+  ,Birth_Rate        VARCHAR(1)
+  ,Death_Rate        VARCHAR(1)
+  ,Resource_Rating   NUMERIC(3,1)
+  ,Capital_Stock     INTEGER 
+  ,GNP_in_millions   INTEGER 
+  ,GNP_per_Capita    NUMERIC(11,4)
+  ,RD                INTEGER 
+);
+INSERT INTO mytable(Region_Number,Population,Labor_Force,Terrain_Type,Birth_Rate,Death_Rate,Resource_Rating,Capital_Stock,GNP_in_millions,GNP_per_Capita,RD) VALUES (1,512,387,'Jungle',NULL,NULL,0.8,356,372,726562.5,57);
+INSERT INTO mytable(Region_Number,Population,Labor_Force,Terrain_Type,Birth_Rate,Death_Rate,Resource_Rating,Capital_Stock,GNP_in_millions,GNP_per_Capita,RD) VALUES (2,444,289,'Jungle',NULL,NULL,0.8,300,495,1114864.865,20);
+INSERT INTO mytable(Region_Number,Population,Labor_Force,Terrain_Type,Birth_Rate,Death_Rate,Resource_Rating,Capital_Stock,GNP_in_millions,GNP_per_Capita,RD) VALUES (3,541,382,'Jungle',NULL,NULL,0.8,164,557,1029574.861,64);
+INSERT INTO mytable(Region_Number,Population,Labor_Force,Terrain_Type,Birth_Rate,Death_Rate,Resource_Rating,Capital_Stock,GNP_in_millions,GNP_per_Capita,RD) VALUES (4,531,453,'Jungle',NULL,NULL,0.8,238,406,764595.1036,10);
+INSERT INTO mytable(Region_Number,Population,Labor_Force,Terrain_Type,Birth_Rate,Death_Rate,Resource_Rating,Capital_Stock,GNP_in_millions,GNP_per_Capita,RD) VALUES (5,950,721,'Jungle',NULL,NULL,0.8,233,501,527368.4211,100);
+INSERT INTO mytable(Region_Number,Population,Labor_Force,Terrain_Type,Birth_Rate,Death_Rate,Resource_Rating,Capital_Stock,GNP_in_millions,GNP_per_Capita,RD) VALUES (6,159,82,'Mountain',NULL,NULL,0.9,200,473,2974842.767,58);
+INSERT INTO mytable(Region_Number,Population,Labor_Force,Terrain_Type,Birth_Rate,Death_Rate,Resource_Rating,Capital_Stock,GNP_in_millions,GNP_per_Capita,RD) VALUES (7,621,280,'Mountain',NULL,NULL,0.9,357,343,552334.9436,22);
+INSERT INTO mytable(Region_Number,Population,Labor_Force,Terrain_Type,Birth_Rate,Death_Rate,Resource_Rating,Capital_Stock,GNP_in_millions,GNP_per_Capita,RD) VALUES (8,750,532,'Grassland',NULL,NULL,0.7,250,564,752000,69);
+INSERT INTO mytable(Region_Number,Population,Labor_Force,Terrain_Type,Birth_Rate,Death_Rate,Resource_Rating,Capital_Stock,GNP_in_millions,GNP_per_Capita,RD) VALUES (9,858,531,'Grassland',NULL,NULL,0.7,219,207,241258.7413,90);
+INSERT INTO mytable(Region_Number,Population,Labor_Force,Terrain_Type,Birth_Rate,Death_Rate,Resource_Rating,Capital_Stock,GNP_in_millions,GNP_per_Capita,RD) VALUES (10,643,412,'Grassland',NULL,NULL,0.7,242,270,419906.6874,94);
+INSERT INTO mytable(Region_Number,Population,Labor_Force,Terrain_Type,Birth_Rate,Death_Rate,Resource_Rating,Capital_Stock,GNP_in_millions,GNP_per_Capita,RD) VALUES (11,427,302,'Grassland',NULL,NULL,0.7,285,295,690866.5105,43);
+INSERT INTO mytable(Region_Number,Population,Labor_Force,Terrain_Type,Birth_Rate,Death_Rate,Resource_Rating,Capital_Stock,GNP_in_millions,GNP_per_Capita,RD) VALUES (12,736,411,'Grassland',NULL,NULL,0.7,347,430,584239.1304,66);
+INSERT INTO mytable(Region_Number,Population,Labor_Force,Terrain_Type,Birth_Rate,Death_Rate,Resource_Rating,Capital_Stock,GNP_in_millions,GNP_per_Capita,RD) VALUES (13,333,178,'Grassland',NULL,NULL,0.7,180,365,1096096.096,50);
+INSERT INTO mytable(Region_Number,Population,Labor_Force,Terrain_Type,Birth_Rate,Death_Rate,Resource_Rating,Capital_Stock,GNP_in_millions,GNP_per_Capita,RD) VALUES (14,770,152,'Grassland',NULL,NULL,0.7,208,557,723376.6234,94);
+INSERT INTO mytable(Region_Number,Population,Labor_Force,Terrain_Type,Birth_Rate,Death_Rate,Resource_Rating,Capital_Stock,GNP_in_millions,GNP_per_Capita,RD) VALUES (15,853,577,'Grassland',NULL,NULL,0.7,309,445,521688.1594,48);
+INSERT INTO mytable(Region_Number,Population,Labor_Force,Terrain_Type,Birth_Rate,Death_Rate,Resource_Rating,Capital_Stock,GNP_in_millions,GNP_per_Capita,RD) VALUES (16,956,771,'Grassland',NULL,NULL,0.7,381,296,309623.431,38);
+INSERT INTO mytable(Region_Number,Population,Labor_Force,Terrain_Type,Birth_Rate,Death_Rate,Resource_Rating,Capital_Stock,GNP_in_millions,GNP_per_Capita,RD) VALUES (17,654,453,'Grassland',NULL,NULL,0.7,339,348,532110.0917,52);
+INSERT INTO mytable(Region_Number,Population,Labor_Force,Terrain_Type,Birth_Rate,Death_Rate,Resource_Rating,Capital_Stock,GNP_in_millions,GNP_per_Capita,RD) VALUES (18,681,412,'Grassland',NULL,NULL,0.7,119,399,585903.0837,47);
+INSERT INTO mytable(Region_Number,Population,Labor_Force,Terrain_Type,Birth_Rate,Death_Rate,Resource_Rating,Capital_Stock,GNP_in_millions,GNP_per_Capita,RD) VALUES (19,362,174,'Grassland',NULL,NULL,0.7,340,403,1113259.669,17);
+INSERT INTO mytable(Region_Number,Population,Labor_Force,Terrain_Type,Birth_Rate,Death_Rate,Resource_Rating,Capital_Stock,GNP_in_millions,GNP_per_Capita,RD) VALUES (20,245,200,'Desert',NULL,NULL,0.1,73,361,1473469.388,57);
+INSERT INTO mytable(Region_Number,Population,Labor_Force,Terrain_Type,Birth_Rate,Death_Rate,Resource_Rating,Capital_Stock,GNP_in_millions,GNP_per_Capita,RD) VALUES (21,913,771,'Desert',NULL,NULL,0.1,315,432,473165.3888,23);
+INSERT INTO mytable(Region_Number,Population,Labor_Force,Terrain_Type,Birth_Rate,Death_Rate,Resource_Rating,Capital_Stock,GNP_in_millions,GNP_per_Capita,RD) VALUES (22,263,147,'Grassland',NULL,NULL,0.7,284,531,2019011.407,5);
+INSERT INTO mytable(Region_Number,Population,Labor_Force,Terrain_Type,Birth_Rate,Death_Rate,Resource_Rating,Capital_Stock,GNP_in_millions,GNP_per_Capita,RD) VALUES (23,796,531,'Grassland',NULL,NULL,0.7,185,336,422110.5528,9);
+INSERT INTO mytable(Region_Number,Population,Labor_Force,Terrain_Type,Birth_Rate,Death_Rate,Resource_Rating,Capital_Stock,GNP_in_millions,GNP_per_Capita,RD) VALUES (24,661,431,'Grassland',NULL,NULL,0.7,204,501,757942.5113,17);
+INSERT INTO mytable(Region_Number,Population,Labor_Force,Terrain_Type,Birth_Rate,Death_Rate,Resource_Rating,Capital_Stock,GNP_in_millions,GNP_per_Capita,RD) VALUES (25,916,589,'Grassland',NULL,NULL,0.7,169,458,500000,87);
+INSERT INTO mytable(Region_Number,Population,Labor_Force,Terrain_Type,Birth_Rate,Death_Rate,Resource_Rating,Capital_Stock,GNP_in_millions,GNP_per_Capita,RD) VALUES (26,958,623,'Grassland',NULL,NULL,0.7,54,358,373695.1983,35);
+INSERT INTO mytable(Region_Number,Population,Labor_Force,Terrain_Type,Birth_Rate,Death_Rate,Resource_Rating,Capital_Stock,GNP_in_millions,GNP_per_Capita,RD) VALUES (27,223,98,'Grassland',NULL,NULL,0.7,130,249,1116591.928,85);
+INSERT INTO mytable(Region_Number,Population,Labor_Force,Terrain_Type,Birth_Rate,Death_Rate,Resource_Rating,Capital_Stock,GNP_in_millions,GNP_per_Capita,RD) VALUES (28,711,276,'Jungle',NULL,NULL,0.8,316,545,766526.0197,42);
+INSERT INTO mytable(Region_Number,Population,Labor_Force,Terrain_Type,Birth_Rate,Death_Rate,Resource_Rating,Capital_Stock,GNP_in_millions,GNP_per_Capita,RD) VALUES (29,436,248,'Jungle',NULL,NULL,0.8,108,546,1252293.578,42);
+INSERT INTO mytable(Region_Number,Population,Labor_Force,Terrain_Type,Birth_Rate,Death_Rate,Resource_Rating,Capital_Stock,GNP_in_millions,GNP_per_Capita,RD) VALUES (30,857,603,'Jungle',NULL,NULL,0.8,395,235,274212.3687,41);
+INSERT INTO mytable(Region_Number,Population,Labor_Force,Terrain_Type,Birth_Rate,Death_Rate,Resource_Rating,Capital_Stock,GNP_in_millions,GNP_per_Capita,RD) VALUES (31,720,427,'Grassland',NULL,NULL,0.7,226,570,791666.6667,20);
+INSERT INTO mytable(Region_Number,Population,Labor_Force,Terrain_Type,Birth_Rate,Death_Rate,Resource_Rating,Capital_Stock,GNP_in_millions,GNP_per_Capita,RD) VALUES (32,124,75,'Grassland',NULL,NULL,0.7,377,476,3838709.677,81);
+INSERT INTO mytable(Region_Number,Population,Labor_Force,Terrain_Type,Birth_Rate,Death_Rate,Resource_Rating,Capital_Stock,GNP_in_millions,GNP_per_Capita,RD) VALUES (33,596,314,'Grassland',NULL,NULL,0.7,366,554,929530.2013,43);
+INSERT INTO mytable(Region_Number,Population,Labor_Force,Terrain_Type,Birth_Rate,Death_Rate,Resource_Rating,Capital_Stock,GNP_in_millions,GNP_per_Capita,RD) VALUES (34,999,604,'Grassland',NULL,NULL,0.7,114,522,522522.5225,36);
+INSERT INTO mytable(Region_Number,Population,Labor_Force,Terrain_Type,Birth_Rate,Death_Rate,Resource_Rating,Capital_Stock,GNP_in_millions,GNP_per_Capita,RD) VALUES (35,NULL,NULL,'Water',NULL,NULL,NULL,NULL,NULL,NULL,NULL);
+INSERT INTO mytable(Region_Number,Population,Labor_Force,Terrain_Type,Birth_Rate,Death_Rate,Resource_Rating,Capital_Stock,GNP_in_millions,GNP_per_Capita,RD) VALUES (36,NULL,NULL,'Water',NULL,NULL,NULL,NULL,NULL,NULL,NULL);
+INSERT INTO mytable(Region_Number,Population,Labor_Force,Terrain_Type,Birth_Rate,Death_Rate,Resource_Rating,Capital_Stock,GNP_in_millions,GNP_per_Capita,RD) VALUES (37,NULL,NULL,'Water',NULL,NULL,NULL,NULL,NULL,NULL,NULL);
+INSERT INTO mytable(Region_Number,Population,Labor_Force,Terrain_Type,Birth_Rate,Death_Rate,Resource_Rating,Capital_Stock,GNP_in_millions,GNP_per_Capita,RD) VALUES (38,NULL,NULL,'Water',NULL,NULL,NULL,NULL,NULL,NULL,NULL);
+INSERT INTO mytable(Region_Number,Population,Labor_Force,Terrain_Type,Birth_Rate,Death_Rate,Resource_Rating,Capital_Stock,GNP_in_millions,GNP_per_Capita,RD) VALUES (39,NULL,NULL,'Water',NULL,NULL,NULL,NULL,NULL,NULL,NULL);
+INSERT INTO mytable(Region_Number,Population,Labor_Force,Terrain_Type,Birth_Rate,Death_Rate,Resource_Rating,Capital_Stock,GNP_in_millions,GNP_per_Capita,RD) VALUES (40,NULL,NULL,'Water',NULL,NULL,NULL,NULL,NULL,NULL,NULL);
+INSERT INTO mytable(Region_Number,Population,Labor_Force,Terrain_Type,Birth_Rate,Death_Rate,Resource_Rating,Capital_Stock,GNP_in_millions,GNP_per_Capita,RD) VALUES (41,160,69,'Grassland',NULL,NULL,0.7,124,566,3537500,10);
+INSERT INTO mytable(Region_Number,Population,Labor_Force,Terrain_Type,Birth_Rate,Death_Rate,Resource_Rating,Capital_Stock,GNP_in_millions,GNP_per_Capita,RD) VALUES (42,NULL,NULL,'Water',NULL,NULL,NULL,NULL,NULL,NULL,NULL);
+INSERT INTO mytable(Region_Number,Population,Labor_Force,Terrain_Type,Birth_Rate,Death_Rate,Resource_Rating,Capital_Stock,GNP_in_millions,GNP_per_Capita,RD) VALUES (43,NULL,NULL,'Water',NULL,NULL,NULL,NULL,NULL,NULL,NULL);
+INSERT INTO mytable(Region_Number,Population,Labor_Force,Terrain_Type,Birth_Rate,Death_Rate,Resource_Rating,Capital_Stock,GNP_in_millions,GNP_per_Capita,RD) VALUES (44,NULL,NULL,'Water',NULL,NULL,NULL,NULL,NULL,NULL,NULL);
+INSERT INTO mytable(Region_Number,Population,Labor_Force,Terrain_Type,Birth_Rate,Death_Rate,Resource_Rating,Capital_Stock,GNP_in_millions,GNP_per_Capita,RD) VALUES (45,NULL,NULL,'Water',NULL,NULL,NULL,NULL,NULL,NULL,NULL);
+INSERT INTO mytable(Region_Number,Population,Labor_Force,Terrain_Type,Birth_Rate,Death_Rate,Resource_Rating,Capital_Stock,GNP_in_millions,GNP_per_Capita,RD) VALUES (46,776,444,'Jungle',NULL,NULL,0.8,303,239,307989.6907,58);
+INSERT INTO mytable(Region_Number,Population,Labor_Force,Terrain_Type,Birth_Rate,Death_Rate,Resource_Rating,Capital_Stock,GNP_in_millions,GNP_per_Capita,RD) VALUES (47,799,441,'Mountain',NULL,NULL,0.9,182,430,538172.7159,32);
+INSERT INTO mytable(Region_Number,Population,Labor_Force,Terrain_Type,Birth_Rate,Death_Rate,Resource_Rating,Capital_Stock,GNP_in_millions,GNP_per_Capita,RD) VALUES (48,533,359,'Mountain',NULL,NULL,0.9,314,271,508442.7767,3);
+INSERT INTO mytable(Region_Number,Population,Labor_Force,Terrain_Type,Birth_Rate,Death_Rate,Resource_Rating,Capital_Stock,GNP_in_millions,GNP_per_Capita,RD) VALUES (49,843,661,'Mountain',NULL,NULL,0.9,183,395,468564.6501,42);
+INSERT INTO mytable(Region_Number,Population,Labor_Force,Terrain_Type,Birth_Rate,Death_Rate,Resource_Rating,Capital_Stock,GNP_in_millions,GNP_per_Capita,RD) VALUES (50,NULL,NULL,'Water',NULL,NULL,NULL,NULL,NULL,NULL,NULL);
+INSERT INTO mytable(Region_Number,Population,Labor_Force,Terrain_Type,Birth_Rate,Death_Rate,Resource_Rating,Capital_Stock,GNP_in_millions,GNP_per_Capita,RD) VALUES (51,284,203,'Jungle',NULL,NULL,0.8,54,314,1105633.803,30);
+INSERT INTO mytable(Region_Number,Population,Labor_Force,Terrain_Type,Birth_Rate,Death_Rate,Resource_Rating,Capital_Stock,GNP_in_millions,GNP_per_Capita,RD) VALUES (52,977,561,'Jungle',NULL,NULL,0.8,187,515,527123.8485,51);
+INSERT INTO mytable(Region_Number,Population,Labor_Force,Terrain_Type,Birth_Rate,Death_Rate,Resource_Rating,Capital_Stock,GNP_in_millions,GNP_per_Capita,RD) VALUES (53,359,244,'Jungle',NULL,NULL,0.8,335,315,877437.3259,53);
+INSERT INTO mytable(Region_Number,Population,Labor_Force,Terrain_Type,Birth_Rate,Death_Rate,Resource_Rating,Capital_Stock,GNP_in_millions,GNP_per_Capita,RD) VALUES (54,388,258,'Jungle',NULL,NULL,0.8,153,581,1497422.68,72);
+INSERT INTO mytable(Region_Number,Population,Labor_Force,Terrain_Type,Birth_Rate,Death_Rate,Resource_Rating,Capital_Stock,GNP_in_millions,GNP_per_Capita,RD) VALUES (55,524,402,'Jungle',NULL,NULL,0.8,98,234,446564.8855,86);
+INSERT INTO mytable(Region_Number,Population,Labor_Force,Terrain_Type,Birth_Rate,Death_Rate,Resource_Rating,Capital_Stock,GNP_in_millions,GNP_per_Capita,RD) VALUES (56,587,387,'Grassland',NULL,NULL,0.7,245,327,557069.8467,69);
+INSERT INTO mytable(Region_Number,Population,Labor_Force,Terrain_Type,Birth_Rate,Death_Rate,Resource_Rating,Capital_Stock,GNP_in_millions,GNP_per_Capita,RD) VALUES (57,104,49,'Grassland',NULL,NULL,0.7,197,276,2653846.154,84);
+INSERT INTO mytable(Region_Number,Population,Labor_Force,Terrain_Type,Birth_Rate,Death_Rate,Resource_Rating,Capital_Stock,GNP_in_millions,GNP_per_Capita,RD) VALUES (58,224,151,'Grassland',NULL,NULL,0.7,160,365,1629464.286,85);
+INSERT INTO mytable(Region_Number,Population,Labor_Force,Terrain_Type,Birth_Rate,Death_Rate,Resource_Rating,Capital_Stock,GNP_in_millions,GNP_per_Capita,RD) VALUES (59,745,491,'Grassland',NULL,NULL,0.7,63,404,542281.8792,17);
+INSERT INTO mytable(Region_Number,Population,Labor_Force,Terrain_Type,Birth_Rate,Death_Rate,Resource_Rating,Capital_Stock,GNP_in_millions,GNP_per_Capita,RD) VALUES (60,987,681,'Grassland',NULL,NULL,0.7,197,599,606889.5643,18);
+INSERT INTO mytable(Region_Number,Population,Labor_Force,Terrain_Type,Birth_Rate,Death_Rate,Resource_Rating,Capital_Stock,GNP_in_millions,GNP_per_Capita,RD) VALUES (61,693,349,'Grassland',NULL,NULL,0.7,362,411,593073.5931,41);
+INSERT INTO mytable(Region_Number,Population,Labor_Force,Terrain_Type,Birth_Rate,Death_Rate,Resource_Rating,Capital_Stock,GNP_in_millions,GNP_per_Capita,RD) VALUES (62,595,278,'Grassland',NULL,NULL,0.7,145,530,890756.3025,41);
+INSERT INTO mytable(Region_Number,Population,Labor_Force,Terrain_Type,Birth_Rate,Death_Rate,Resource_Rating,Capital_Stock,GNP_in_millions,GNP_per_Capita,RD) VALUES (63,688,378,'Grassland',NULL,NULL,0.7,162,409,594476.7442,63);
+INSERT INTO mytable(Region_Number,Population,Labor_Force,Terrain_Type,Birth_Rate,Death_Rate,Resource_Rating,Capital_Stock,GNP_in_millions,GNP_per_Capita,RD) VALUES (64,157,101,'Grassland',NULL,NULL,0.7,114,228,1452229.299,24);
+INSERT INTO mytable(Region_Number,Population,Labor_Force,Terrain_Type,Birth_Rate,Death_Rate,Resource_Rating,Capital_Stock,GNP_in_millions,GNP_per_Capita,RD) VALUES (65,864,601,'Grassland',NULL,NULL,0.7,74,596,689814.8148,87);
+INSERT INTO mytable(Region_Number,Population,Labor_Force,Terrain_Type,Birth_Rate,Death_Rate,Resource_Rating,Capital_Stock,GNP_in_millions,GNP_per_Capita,RD) VALUES (66,374,179,'Grassland',NULL,NULL,0.7,218,497,1328877.005,41);
+INSERT INTO mytable(Region_Number,Population,Labor_Force,Terrain_Type,Birth_Rate,Death_Rate,Resource_Rating,Capital_Stock,GNP_in_millions,GNP_per_Capita,RD) VALUES (67,779,477,'Grassland',NULL,NULL,0.7,217,437,560975.6098,58);
+INSERT INTO mytable(Region_Number,Population,Labor_Force,Terrain_Type,Birth_Rate,Death_Rate,Resource_Rating,Capital_Stock,GNP_in_millions,GNP_per_Capita,RD) VALUES (68,472,331,'Grassland',NULL,NULL,0.7,67,503,1065677.966,87);
+INSERT INTO mytable(Region_Number,Population,Labor_Force,Terrain_Type,Birth_Rate,Death_Rate,Resource_Rating,Capital_Stock,GNP_in_millions,GNP_per_Capita,RD) VALUES (69,265,192,'Grassland',NULL,NULL,0.7,191,418,1577358.491,31);
+INSERT INTO mytable(Region_Number,Population,Labor_Force,Terrain_Type,Birth_Rate,Death_Rate,Resource_Rating,Capital_Stock,GNP_in_millions,GNP_per_Capita,RD) VALUES (70,727,593,'Grassland',NULL,NULL,0.7,358,339,466299.8624,65);
+INSERT INTO mytable(Region_Number,Population,Labor_Force,Terrain_Type,Birth_Rate,Death_Rate,Resource_Rating,Capital_Stock,GNP_in_millions,GNP_per_Capita,RD) VALUES (71,135,71,'Grassland',NULL,NULL,0.7,281,278,2059259.259,75);
+INSERT INTO mytable(Region_Number,Population,Labor_Force,Terrain_Type,Birth_Rate,Death_Rate,Resource_Rating,Capital_Stock,GNP_in_millions,GNP_per_Capita,RD) VALUES (72,915,501,'Grassland',NULL,NULL,0.7,371,553,604371.5847,47);
+INSERT INTO mytable(Region_Number,Population,Labor_Force,Terrain_Type,Birth_Rate,Death_Rate,Resource_Rating,Capital_Stock,GNP_in_millions,GNP_per_Capita,RD) VALUES (73,891,499,'Grassland',NULL,NULL,0.7,331,485,544332.211,50);
+INSERT INTO mytable(Region_Number,Population,Labor_Force,Terrain_Type,Birth_Rate,Death_Rate,Resource_Rating,Capital_Stock,GNP_in_millions,GNP_per_Capita,RD) VALUES (74,925,603,'Mountain',NULL,NULL,0.9,388,589,636756.7568,85);
+INSERT INTO mytable(Region_Number,Population,Labor_Force,Terrain_Type,Birth_Rate,Death_Rate,Resource_Rating,Capital_Stock,GNP_in_millions,GNP_per_Capita,RD) VALUES (75,819,581,'Desert',NULL,NULL,0.1,327,355,433455.4335,23);
+INSERT INTO mytable(Region_Number,Population,Labor_Force,Terrain_Type,Birth_Rate,Death_Rate,Resource_Rating,Capital_Stock,GNP_in_millions,GNP_per_Capita,RD) VALUES (76,934,661,'Desert',NULL,NULL,0.1,381,521,557815.8458,40);
+INSERT INTO mytable(Region_Number,Population,Labor_Force,Terrain_Type,Birth_Rate,Death_Rate,Resource_Rating,Capital_Stock,GNP_in_millions,GNP_per_Capita,RD) VALUES (77,NULL,NULL,'Water',NULL,NULL,NULL,NULL,NULL,NULL,NULL);
+INSERT INTO mytable(Region_Number,Population,Labor_Force,Terrain_Type,Birth_Rate,Death_Rate,Resource_Rating,Capital_Stock,GNP_in_millions,GNP_per_Capita,RD) VALUES (78,222,161,'Mountain',NULL,NULL,0.9,105,539,2427927.928,31);
